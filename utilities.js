@@ -28,8 +28,8 @@ function calculation() {
 
 function calculateSavings() {
     //Get the balance Amount
-    const balanceText = document.getElementById('minus-balance')
-    const balance = Math.round(parseInt(balanceText.innerText))
+    const incomeText = document.getElementById('salary-field')
+    const balance = Math.round(parseInt(incomeText.value))
 
     //Get the saving percent amount
     const savingField = document.getElementById('save-percent')
